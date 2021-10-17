@@ -1,6 +1,7 @@
 name: Deploy GitHub Pages
 
 # 触发条件：在 push 到 master 分支后
+# on: workflow_dispatch
 on:
   push:
     branches:
@@ -35,8 +36,7 @@ jobs:
 
       # 如果缓存没有命中，安装依赖
       - name: Install dependencies
-#         run: yarn add -D vuepress@next
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
+#         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
 
       # 运行构建脚本
