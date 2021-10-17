@@ -2,22 +2,19 @@ module.exports = {
   title: "Vue Test",
   description: " VuePress",
   base: '/v1/',
+  //sidebar: auto,
+  lastUpdated: 'Last Updated',
+  smoothcroll: true,
   markdown: {
     lineNumbers: true
   },
+  // theme config
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },                      // 根路径
-      { text: 'Test', link: '/test/'},
-    ],
-    //sidebar: [
-      //'/test',
-      //[ '/third', 'one' ],
-      ////[ '/second', 'second' ]
-    //],
-
-    lastUpdated: 'Last Updated',
-    displayAllHeaders: true,
-    smoothcroll: true,
-  }
+      { text: 'Home', link: '/' },
+      { text: "Config", link: '/guide/config' },
+      { text: "Theme", link: '/guide/theme' }
+    ]},
+  displayAllHeaders: true,
+  sidebar: 'auto'
 }
