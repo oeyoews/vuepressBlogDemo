@@ -1,5 +1,3 @@
-const { config } = require("vuepress-theme-hope");
-
 module.exports = {
   title: "Vue Test",
   description: " VuePress",
