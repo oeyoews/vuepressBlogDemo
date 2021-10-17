@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev theme/",
+    "docs:build": "vuepress build theme/",
+    "docs:clean-dev": "vuepress dev theme/ --no-cache",
+    "docs:eject-theme": "vuepress eject-hope theme/"
   },
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.20.3"
   }
 }

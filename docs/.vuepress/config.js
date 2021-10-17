@@ -1,12 +1,23 @@
+const { config } = require("vuepress-theme-hope");
+
 module.exports = {
-  title: "vue test",
-  description: " vue test for gitpages",
-  base: '/v1',
+  title: "Vue Test",
+  description: " VuePress",
+  base: '/v1/',
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    sidebar: 'auto',
+    nav: [
+      { text: 'Home', link: '/' },                      // 根路径
+      { text: 'Test', link: '/test/'},
+    ],
+    //sidebar: [
+      //'/test',
+      //[ '/third', 'one' ],
+      ////[ '/second', 'second' ]
+    //],
+
     lastUpdated: 'Last Updated',
     displayAllHeaders: true,
     smoothcroll: true,
