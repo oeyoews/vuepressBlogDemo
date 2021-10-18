@@ -1,8 +1,8 @@
 module.exports = {
-  title: "Vue Test",
-  description: " VuePress",
- head: [['link', { rel: 'icon', href: '/logo.svg' }]],
   base: '/v1/',
+  title: "Vuepress ",
+  description: " Just Do It!",
+  //head: [['link', { rel: 'icon', href: '/ex1.ico' }]],
   //sidebar: auto,
   lastUpdated: 'Last Updated',
   smoothcroll: true,
