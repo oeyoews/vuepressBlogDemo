@@ -2,7 +2,7 @@ module.exports = {
   base: '/',
   title: "Vuepress ",
   description: " Just Do It!",
-  head: [['link', { rel: 'icon', href: 'logo.svg' }]],
+  head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
   //sidebar: auto,
   lastUpdated: 'Last Updated',
   smoothcroll: true,
