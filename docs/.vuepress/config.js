@@ -13,4 +13,16 @@ module.exports = {
       { text: "Theme", link: '/guide/theme' }
     ]},
   displayAllHeaders: true,
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Search',
+          },
+        },
+      },
+    ],
+  ],
 }
