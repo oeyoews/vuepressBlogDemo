@@ -15,7 +15,7 @@ module.exports = {
   themeConfig: {
     logo: 'logo.svg',
     sidebar: 'auto',
-    nav: [
+    navbar: [
       { text: 'Home', link: '/' },
       { text: "Config", link: '/guide/config' },
       { text: "Theme", link: '/guide/theme' }
