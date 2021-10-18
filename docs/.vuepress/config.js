@@ -1,12 +1,7 @@
 module.exports = {
   title: "Vue Test",
   description: " VuePress",
- head: [
-    [
-      "link",
-      { rel: "shortcut icon", type: "icon", href: `/favicon.ico` },
-    ]
-  ],
+  head: [ [ "link", { rel: "icon", href: '/favicon.ico' }, ] ],
   base: '/v1/',
   //sidebar: auto,
   lastUpdated: 'Last Updated',
