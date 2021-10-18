@@ -7,7 +7,7 @@ module.exports = {
       { rel: "shortcut icon", type: "icon", href: `/favicon.ico` },
     ]
   ],
-  //base: '/v1/',
+  base: '/v1/',
   //sidebar: auto,
   lastUpdated: 'Last Updated',
   smoothcroll: true,
