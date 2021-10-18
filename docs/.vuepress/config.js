@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  //base: '/',
   title: "Vuepress ",
   description: " Just Do It!",
   head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
