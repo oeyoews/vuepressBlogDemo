@@ -11,9 +11,6 @@ module.exports = {
   //sidebar: auto,
   lastUpdated: 'Last Updated',
   smoothcroll: true,
-  markdown: {
-    lineNumbers: true
-  },
   // theme config
   themeConfig: {
     logo: 'logo.svg',
