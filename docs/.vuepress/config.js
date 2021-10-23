@@ -1,5 +1,6 @@
 module.exports = {
-  title: " ",
+  base: "/",
+  title: "VM",
   description: " Just Do It!",
   head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
   lastUpdated: 'Last Updated',
@@ -13,7 +14,7 @@ module.exports = {
       { text: 'Home ', link: '/' },
       { text: 'Guide', link: '/guide/'},
       { text: 'Reference', link: '/reference/'},
-      { text: 'Link',
+      { text: 'Links',
         children: [
           { text: 'Github', link: 'https://github.com/oeyoews' },
           { text: 'Google', link: 'https://google.com' },
