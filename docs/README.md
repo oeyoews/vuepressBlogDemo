@@ -7,14 +7,14 @@ actions:
   link: /guide/
   type: primary
 - text: Second Start
-  link: /theme
+  link: /reference/
   type: secondary
 features:
-- title: third
+- title: first
   details: demo lorem this is ia demo
 - title: second
   details: demo lorem this is ia demo
-- title: first
+- title: third
   details: demo lorem this is ia demo
 footer:
 ---

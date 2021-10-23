@@ -6,12 +6,24 @@ module.exports = {
   smoothcroll: true,
   themeConfig: {
     logo: 'logo.svg',
-    sidebar: 'auto',
+    //navbar: [
+      //{ text: "Reference", link: '/reference/' }
+      //]
     navbar: [
       { text: 'Home ', link: '/' },
-      { text: 'Config', link: '/guide/config' },
-      { text: "Theme", link: '/guide/theme' }
-    ]},
+      { text: 'Guide', link: '/guide/'},
+      { text: 'Reference', link: '/reference/'},
+    ],
+    sidebar: {
+      "/guide/": [
+        { isGroup: true, text: 'Guide', children: ['/guide/', '/guide/theme.md', '/guide/config.md'], },
+      ],
+      '/reference/': [
+        { text: 'Reference', children: ['/reference/README.md', '/reference/r.md'], },
+      ],
+    },
+  },
+
   displayAllHeaders: true,
   plugins: [
     [
