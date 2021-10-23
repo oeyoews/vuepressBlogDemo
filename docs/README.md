@@ -1,7 +1,7 @@
 ---
 home: true
-tagline: "Unnamed"
-heroText: "HeroText"
+tagline: " "
+heroText: " "
 actions:
 - text: Quick Start →
   link: /guide/
@@ -19,14 +19,13 @@ features:
 footer:
 ---
 
-## Hello VuePress!
-
-
-## Failed 😄
--  success
-- test yarn.lock
-- maybe this is a last test!
-- hello vue
+## Hello 😄
+``` js
+export default {
+  name: 'MyComponent',
+  // demo
+}
+```
 
 ## second
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -49,12 +48,6 @@ this is a danger container
 this is a tip
 :::
 
-``` js
-export default {
-  name: 'MyComponent',
-  // demo
-}
-```
 
 ::: details
 demo
