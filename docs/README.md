@@ -19,6 +19,8 @@ features:
 footer:
 ---
 
+### Badge <Badge text="beta" type="danger"/> <Badge text="default"/>
+
 ## Hello 😄
 ``` js
 export default {
