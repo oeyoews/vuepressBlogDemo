@@ -1,15 +1,21 @@
 ---
 home: true
-heroImage:
-actionText: Quick Start →
-actionLink: /guide/config
+tagline: "Unnamed"
+heroText: "HeroText"
+actions:
+- text: Quick Start →
+  link: /guide/
+  type: primary
+- text: Second Start
+  link: /theme
+  type: secondary
 features:
-- title:
-  details:
-- title:
-  details:
-- title:
-  details:
+- title: third
+  details: demo lorem this is ia demo
+- title: second
+  details: demo lorem this is ia demo
+- title: first
+  details: demo lorem this is ia demo
 footer:
 ---
 
