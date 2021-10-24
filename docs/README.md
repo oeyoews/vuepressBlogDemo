@@ -1,12 +1,12 @@
 ---
 home: true
-tagline: " "
+tagline: "  "
 heroText: " "
 actions:
-- text: Quick Start →
+- text: Details →
   link: /guide/
   type: primary
-- text: Second Start
+- text: Part II
   link: /reference/
   type: secondary
 features:
