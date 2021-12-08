@@ -2,7 +2,8 @@
 
 * [readme](#readme)
   * [H2](#h2)
-  * [!test](#test)
+  * [images](#images)
+  * [- images: !test](#--images-test)
 
 <!-- vim-markdown-toc -->
 # readme
@@ -24,7 +25,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```
 - [ ] one
 - [ ] second
-![test](../images/test-01.png)
+
+## images
+- images: ![test](../images/test-01.png)
 ----------
 
 
