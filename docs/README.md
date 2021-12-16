@@ -3,11 +3,11 @@ home: true
 tagline: "  "
 heroText: " "
 actions:
-- text: Details →
+- text: Quick Start →
   link: /guide/
   type: primary
-- text: Part II
-  link: /reference/
+- text: Github
+  link: https://github.com
   type: secondary
 features:
 - title: first
