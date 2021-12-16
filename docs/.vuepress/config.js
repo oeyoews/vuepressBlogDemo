@@ -2,7 +2,16 @@ module.exports = {
   base: "/",
   title: "VM",
   description: " Just Do It!",
-  head: [['link', { rel: 'icon', href: 'oeyoew.png' }]],
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        // just support ico format
+        href: 'favicon.ico'
+      }
+    ]
+  ],
   lastUpdated: 'Last Updated',
   smoothcroll: true,
   plugins: [
@@ -20,9 +29,9 @@ module.exports = {
           { text: 'Bing', link: 'https://bing.com' },
           { text: 'Github', link: 'https://github.com/oeyoews/oeyoews.github.io' },
           { text: 'Wiki', link: 'https://wikipedia.org' },
-      ],
+        ],
       },
-      ] ,
+    ] ,
     sidebar: {
       "/guide/": [
         { isGroup: true, text: 'Guide', children: ['/guide/', '/guide/theme.md', '/guide/config.md'], },
