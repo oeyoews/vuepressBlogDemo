@@ -16,8 +16,9 @@ module.exports = {
       { text: 'Reference', link: '/reference/'},
       { text: 'Links',
         children: [
-          { text: 'Github', link: 'https://github.com/oeyoews/oeyoews.github.io' },
           { text: 'Google', link: 'https://google.com' },
+          { text: 'Bing', link: 'https://bing.com' },
+          { text: 'Github', link: 'https://github.com/oeyoews/oeyoews.github.io' },
           { text: 'Wiki', link: 'https://wikipedia.org' },
       ],
       },
