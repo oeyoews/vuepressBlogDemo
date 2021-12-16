@@ -87,6 +87,7 @@ module.exports = {
       ],
       '/reference/': [
         {
+          isGroup: true,
           text: 'Reference',
           children: [
             'README.md',
@@ -95,10 +96,14 @@ module.exports = {
         },
       ],
       // must have readme in it's directory
+      // not show h1 title
+      // must have second h2 title for one file to build normal sidebar
       '/test/': [
         {
+          isGroup: true,
           text: 'Test',
           children: [
+            "README.MD",
             't1.md',
             't2.md',
           ],
