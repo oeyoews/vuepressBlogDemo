@@ -47,6 +47,10 @@ this is a danger container
 :::
 
 ::: tip
+   if you not see something, please refresh your pages(press F5, or clean your browser cache)
+:::
+
+::: tip
 this is a tip
 :::
 
