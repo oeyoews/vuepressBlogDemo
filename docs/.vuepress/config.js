@@ -9,7 +9,7 @@ module.exports = {
     [ '@vuepress/plugin-search', { locales: { '/': { placeholder: 'Search', }, }, }, ],
   ],
   themeConfig: {
-    logo: 'oeyoew.svg',
+    logo: 'oeyoew.png',
     navbar: [
       { text: 'Home ', link: '/' },
       { text: 'Guide', link: '/guide/'},
