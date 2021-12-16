@@ -2,7 +2,7 @@ module.exports = {
   base: "/",
   title: "VM",
   description: " Just Do It!",
-  head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: 'oeyoew.svg' }]],
   lastUpdated: 'Last Updated',
   smoothcroll: true,
   plugins: [
