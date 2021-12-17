@@ -19,8 +19,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```c
   demo
 ```
-- [ ] one
-- [ ] second
 
 ## images
 - images: ![test](../images/test-01.png)

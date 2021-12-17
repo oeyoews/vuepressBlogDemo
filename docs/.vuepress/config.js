@@ -30,11 +30,11 @@ module.exports = {
     logo: 'oeyoew.png',
     navbar: [
       {
-        text: 'Home ',
+        text: '📇 Home ',
         link: '/'
       },
       {
-        text: 'Guide',
+        text: '📓 Guide',
         //link: '/guide/'
         children: [
           //'/test/README.md',
@@ -42,15 +42,15 @@ module.exports = {
         ]
       },
       {
-        text: 'Reference',
+        text: ' 🎄Reference',
         link: '/reference/'
       },
       {
-        text: 'Test',
+        text: '🇹 Test',
         link: '/test/'
       },
       {
-        text: 'Links',
+        text: '🇱 Links',
         children: [
           {
             text: 'Google',
@@ -76,7 +76,7 @@ module.exports = {
       "/guide/": [
         {
           isGroup: true,
-          text: 'Guide',
+          text: '📇 Guide',
           children: [
             'README.md',
             'theme.md',
