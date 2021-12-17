@@ -1,10 +1,12 @@
-/*@font-face {*/
-  /*font-family: "iconfont";*/
+@font-face {
+  font-family: "iconfont";
 
-  /*src: url("//at.alicdn.com/t/font_2578093_zxe6evgou9r.woff2?t=1622195242467")*/
-      /*format("woff2"),*/
-    /*url("//at.alicdn.com/t/font_2578093_zxe6evgou9r.woff?t=1622195242467")*/
-      /*format("woff"),*/
-    /*url("//at.alicdn.com/t/font_2578093_zxe6evgou9r.ttf?t=1622195242467")*/
-      /*format("truetype");*/
-/*}*/
+  /*TODO: ???*/
+  src:
+    url("/fon")
+      format("woff2"),
+    url("//at.alicdn.com/t/font_2578093_zxe6evgou9r.woff?t=1622195242467")
+      format("woff"),
+    url("//at.alicdn.com/t/font_2578093_zxe6evgou9r.ttf?t=1622195242467")
+      format("truetype");
+}
