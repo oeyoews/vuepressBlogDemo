@@ -1,5 +1,11 @@
 :::details 目录
-[[toc]]
+<!-- vim-markdown-toc Marked -->
+
+* [🌮 config](#🌮-config)
+  * [🎙️ demo](#🎙️-demo)
+  * [code block](#code-block)
+
+<!-- vim-markdown-toc -->
 :::
 
 # 🌮 config

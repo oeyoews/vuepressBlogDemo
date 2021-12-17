@@ -1,5 +1,12 @@
 :::details 目录
-[[toc]]
+<!-- vim-markdown-toc Marked -->
+
+* [readme](#readme)
+  * [H2](#h2)
+  * [images](#images)
+  * [demo](#demo)
+
+<!-- vim-markdown-toc -->
 :::
 
 # readme
@@ -20,9 +27,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   demo
 ```
 
-## images
-- images: ![test](../images/test-01.png)
-----------
+---
 
+## images
+
+- ![test](../images/test-01.png)
+
+----------
 
 ## demo
