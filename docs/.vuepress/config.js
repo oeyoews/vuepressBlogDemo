@@ -10,7 +10,14 @@ module.exports = {
         // just support ico format
         href: 'favicon.ico'
       }
-    ]
+    ],
+    [
+      "link",
+      { rel: "stylesheet",
+        type: "text/css",
+        href: "/static/css/font.css"
+      },
+    ],
   ],
   lastUpdated: 'Last Updated',
   smoothcroll: true,
