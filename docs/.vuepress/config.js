@@ -72,6 +72,10 @@ module.exports = {
             link: 'https://github.com/oeyoews/oeyoews.github.io'
           },
           {
+            text: 'TiddlyWiki',
+            link: 'https://vanillaf.github.io/tiddlywiki'
+          },
+          {
             text: 'Wiki',
             link: 'https://wikipedia.org'
           },
