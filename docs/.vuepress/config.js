@@ -73,7 +73,7 @@ module.exports = {
           },
           {
             text: 'TiddlyWiki',
-            link: 'https://vanillaf.github.io/tiddlywiki'
+            link: 'https://oeyoews.github.io/tiddlywiki'
           },
           {
             text: 'Wiki',
