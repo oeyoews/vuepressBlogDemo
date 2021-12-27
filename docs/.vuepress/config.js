@@ -72,8 +72,12 @@ module.exports = {
             link: 'https://github.com/oeyoews/oeyoews.github.io'
           },
           {
-            text: 'TiddlyWiki',
-            link: 'https://oeyoews.github.io/tiddlywiki'
+            text: 'TiddlyWiki(github-h5)',
+            link: 'https://oeyoews.top/tiddlywiki'
+          },
+          {
+            text: 'TiddlyWiki(gitlab-js)',
+            link: 'https://oeyoew.fun/tiddlywiki'
           },
           {
             text: 'Wiki',
