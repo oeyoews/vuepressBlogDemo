@@ -1,6 +1,6 @@
 module.exports = {
   base: "/",
-  title: "VM",
+  title: "Learning",
   description: " Just Do It!",
   head: [
     [
