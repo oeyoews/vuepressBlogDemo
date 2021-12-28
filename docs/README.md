@@ -24,6 +24,7 @@ footer:
 ### Badge <Badge text="beta" type="danger"/> <Badge text="default"/>
 
 
+
 ``` js
 export default {
   name: 'MyComponent',
