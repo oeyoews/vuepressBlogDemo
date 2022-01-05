@@ -1,6 +1,6 @@
 module.exports = {
   base: "/",
-  title: "Learning",
+  title: "📓 Learning",
   description: " Just Do It!",
   head: [
     [
