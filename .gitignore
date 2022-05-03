@@ -3,4 +3,4 @@ push.sh
 .cache
 .temp
 dist
-.yarn
+.yarn*
