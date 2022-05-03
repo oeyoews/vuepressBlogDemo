@@ -1,0 +1,7 @@
+{
+  "name": "vuepressBlogDemo",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "vuepress": "next"
+  }
+}
