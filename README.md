@@ -9,4 +9,4 @@
 
 ## note
 
-1. switch default dev branch
+* [x] switch default dev branch in github
