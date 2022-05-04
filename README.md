@@ -6,3 +6,7 @@
 3. how use -tags to deploy
 4. add build@vercel command
 5. add new favicon icon
+
+## note
+
+1. switch default dev branch
