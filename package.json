@@ -6,8 +6,11 @@
     "vuepress": "next"
   },
   "scripts": {
+    "build@vercel": "bash scripts/vercel.sh",
+    "copy@vercel": "cp docs public",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "cp@vercel": "cp docs/.vuepress/dist public"
   },
   "version": "1.0.0",
   "repository": "https://github.com/oeyoews/vuepressBlogDemo.git",

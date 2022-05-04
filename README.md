@@ -5,3 +5,4 @@
 2. add vuepress pwa plugins
 3. how use -tags to deploy
 4. add build@vercel command
+5. add new favicon icon
