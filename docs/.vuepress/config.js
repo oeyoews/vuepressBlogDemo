@@ -1,6 +1,6 @@
 module.exports = {
 
-  base: "/",
+  base: "/vuepressBlogDemo",
 
   // site
   lang: 'en',
