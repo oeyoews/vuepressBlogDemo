@@ -10,6 +10,7 @@
     "copy@vercel": "cp docs public",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "visual@public": "tree -L 1 public",
     "cp@public": "cp docs/.vuepress/dist public"
   },
   "version": "1.0.0",
