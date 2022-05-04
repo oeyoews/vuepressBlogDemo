@@ -1,6 +1,7 @@
 module.exports = {
 
-  base: "/vuepressBlogDemo",
+  //base: "/vuepressBlogDemo",
+  basse: "vues.vercel.app",
 
   // site
   lang: 'en',
