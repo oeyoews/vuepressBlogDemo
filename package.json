@@ -7,10 +7,9 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build docs"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/oeyoews/vuepressBlogDemo.git",
   "author": "oeyoews <jyao4783@gmail.com>",
   "license": "MIT"
